@@ -1,22 +1,30 @@
-# LAB-02: About Me 
+# LAB-02: About Me Project
 
 ## Project Name
 
-I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+This is an *about me* website that asks the user for their name and 5 Yes or No questions to hopefully give them some information on who i am and where i am from. 
 
-### Author: Student/Group Name
+### Author: Donna M. Ada
 
 ### Links and Resources
 
-* [submission PR](http://xyz.com)
-* Any Links you used as reference
-* https://images.unsplash.com/photo-1510574243370-25fe8a740536?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80
+* [A Modern CSS Reset](https://andy-bell.co.uk/a-modern-css-reset/) - Went through some of the styles to get an idea of how to set up classes after using a reset.css
+
 
 ### Lighthouse Accessibility Report Score
 
 * Provide a screenshot of your score after running a Lighthouse Accessibility report.
+![Light House Accessiblity Score](./img/lighthouseScore.png)
 
 ### Reflections and Comments
 
-* Consider including the answers to your daily journal and submission questions here
-* This is also a good place to reflect on the tools and resources used and learned
+* I completely forgot about the 15 minute rule and spent way longer than I should have trying to set up a default.css that sets up the styles for some key html tags like 
+    * `h1`-`h6`
+    * `p`
+    * `ol`
+    * `li`
+    * `strong` & `em`
+
+#### Tools to look into for future projects
+* [Browser Default Styles](https://browserdefaultstyles.com/)  
+    * I did not find this until after creating the default.css. Will look into this and add it to the starter template

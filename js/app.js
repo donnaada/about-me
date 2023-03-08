@@ -10,7 +10,7 @@ let choice = confirm(`Hello ${visitorName}! Welcome to my website about me! Its 
 
 if (!choice){
 
-alert('No problem, enjoy the website :) ');
+    console.log(choice);
 
 } else {
 
@@ -63,7 +63,11 @@ if (remote.toLowerCase() === "y" || remote.toLowerCase() === "yes"){
     alert(`${remote} was not one of the choices. On to the website.`)
 }
 
+alert(`Thank you for taking the time to answer the questions! `)
 }
 
+alert(`I hope you enjoy the website ${visitorName} :) `);
+
+
 let placeholder = document.getElementById('customWelcome');
-placeholder.innerHTML = `Welcome to my page, ${visitorName}! `
+placeholder.innerHTML = `Hafa Adai and Tirow ${visitorName}! <br> Welcome to my site! `
