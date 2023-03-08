@@ -91,6 +91,15 @@ section h2{
 footer{
 background-color: #1a234e;    
 width: 100%;
+padding: 20px;
+color: #fffffe;
+}
+
+footer p{
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1rem;
+    letter-spacing: 3px;
 }
 
 
