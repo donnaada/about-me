@@ -5,9 +5,9 @@ function askQuestion(question, answer) {
   }
 
   if (response === answer) {
-    console.log('Correct!');
+    return true;
   } else {
-    console.log('Wrong!');
+    return false;
   }
 }
 
