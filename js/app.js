@@ -109,7 +109,7 @@ if (!choice){
     }
   }
 
-  alert('Thank you for taking the time to answer the questions! ');
+  alert('Thank you for taking the time to answer all the questions! ');
 
 }
 
