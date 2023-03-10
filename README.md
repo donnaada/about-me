@@ -4,7 +4,9 @@
 
 This is an *about me* website that asks the user for their name and 5 Yes or No questions to hopefully give them some information on who i am and where i am from. 
 
-### Author: Donna M. Ada
+### Author: Donna M. Ada, Navigator
+
+Driver: Ike Steoger, lab04.js
 
 ### Links and Resources
 
