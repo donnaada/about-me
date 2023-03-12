@@ -69,11 +69,11 @@ function guessInLaws(){
   let maxAttempts = 4;
   let attemptLeft = 4;
 
-  let guessInput = prompt(`Guess how many sister-in-laws I have. (Pick a number from 1-10). Attempts Left: ${attemptLeft}`);
+  let guessInput = prompt(`Guess how many sister-in-laws I have. (Pick a number from 1-10). Attempts Left: ${attemptLeft}`,'0');
   let guess = parseInt(guessInput);
   let sil = 6;
 
-  while (guessInput === null || isNaN(guess)){
+  while (isNaN(guess)){
     alert('Please enter a valid response.');
     guessInput = prompt(`Guess how many sister-in-laws I have. (Pick a number from 1-10). ${attemptLeft} attempts remaining.`);
     guess = parseInt(guessInput);
