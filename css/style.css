@@ -38,6 +38,10 @@ nav ul li{
     margin: 0 5px;
 }
 
+#visitorName{
+    text-transform: capitalize;
+}
+
 a {
     color: #1a234e;
     text-decoration: none;
