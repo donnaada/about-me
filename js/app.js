@@ -73,11 +73,11 @@ function guessInLaws(){
   let guess = parseInt(guessInput);
   let sil = 6;
 
-  while (guessInput === null || isNaN(guess)){
-    alert('Please enter a valid response.');
-    guessInput = prompt(`Guess how many sister-in-laws I have. (Pick a number from 1-10). ${attemptLeft} attempts remaining.`);
-    guess = parseInt(guessInput);
-  }
+  // while (guessInput === null || isNaN(guess)){
+  //   alert('Please enter a valid response.');
+  //   guessInput = prompt(`Guess how many sister-in-laws I have. (Pick a number from 1-10). ${attemptLeft} attempts remaining.`);
+  //   guess = parseInt(guessInput);
+  // }
 
   while (guess !== sil && attempt < maxAttempts){
     while (guess < 1 || guess > 10){
